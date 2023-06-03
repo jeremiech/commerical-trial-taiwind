@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commercial</title>
+    <link rel="icon" href="./image/pump-seller-2.png" type="row">
+    <link rel="stylesheet" href="./dist/style.css">
+    <style>
+        #check:checked ~ ul{
+            left:0;
+        }
+    </style>
+</head>
+<body class="bg-no-repeat bg-cover bg-center" style="background:url('./image/slate2-wall.jpeg');">
+            <div class=" px-10 max-h-screen">
+        <div class="w-full h-3">
+            <nav class="py-2 max-w-full">
+                <img class="w-10 h-10 hover:cursor-pointer rounded-full cursor-pointer float-left xl:block sm:hidden" src="./image/message-icon.jpeg" alt="img">
+                <label  class="sm:inline-block xl:hidden sm:leading-[50px] text-5xl text-gray-200 uppercase font-medium">Com Navigation</label>
+                <input id="check" type="checkbox" hidden>
+                <label class="sm:float-right sm: text-5xl sm:leading-[50px] sm:text-gray-200 xl:hidden " for="check">&#9776;</label>
+                <ul class="xl:flex relative 
+                sm:text-center sm:gap-4 sm:-left-full xl:left-0 sm:space-x-6 float-right text-gray-200 mr-5 font-serif  sm:transition-all  duration-300">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">ContactUs</a></li>
+
+                </ul>
+
+
+
+
+            </nav>
+        </div>
+        <div class="mt-40 xl:max-w-1/2 float-left">
+            <p class="font-semibold capitalize text-gray-200 xl:text-3xl sm:text-5xl">groceries <br class="inline 2xl:hidden">delivery in  <span>15 min</span> </p>
+            <p class="xl:text-base text-gray-200 mt-2 font-serify sm:mt-5 sm:text-2xl">gracify offer wide range of product , including <br class="inline 2xl:hidden"> fresh product, meat, dairy, baked goods and nonperishable food</p>
+            <div class="mt-10 space-x-5 sm:space-x-3  sm:mt-12">
+                <a class="sm:py-4 sm:px-6 sm:rounded-full xl:text-gray-200 sm:text-gray-200  inline-block xl:px-4 xl:py-2 bg-gray-400 xl:rounded-full font-medium   border-gray-200 hover:bg-transparent hover:border-gray-200  hover:text-gray-200 duration-300 hover:border border  border-transparent" href="#">Order now</a>
+                <a class="sm:py-4 sm:px-6 sm:rounded-3xl sm:text-gray-200  inline-block px-4 py-2 bg-transparent rounded-full font-bold" href="#">Download <span class="text-lg inline-block rotate-90">&#10146;</span></a>
+
+            </div>
+
+        </div>
+        <div class="xl:max-w-1/2  sm:max-w-screen float-left">
+            <img src="./image/pump-seller-2.png" class="mt-20 xl:max-w-full xl:h-full xl:object-center sm:w-full sm:h-fit sm:object-cover object-center" alt="both seller">
+
+        </div>
+    </div>
+</body>
+</html>
